@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "2zo0huxPO24=",
+  "success": true,
+  "projectFilePath": "/Users/shilijuan/Library/Mobile Documents/com~apple~CloudDocs/uni/SU/A1/DIKUCanteen/DIKUCanteen/DIKUCanteen.csproj",
+  "expectedPackageFiles": [
+    "/Users/shilijuan/.nuget/packages/microsoft.netcore.app.ref/7.0.20/microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "/Users/shilijuan/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.20/microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512",
+    "/Users/shilijuan/.nuget/packages/microsoft.netcore.app.host.osx-arm64/7.0.20/microsoft.netcore.app.host.osx-arm64.7.0.20.nupkg.sha512"
+  ],
+  "logs": []
+}
