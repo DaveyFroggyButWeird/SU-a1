@@ -1,5 +1,10 @@
 namespace DIKUCanteen;
 
 public class Room{
-  // // Add code here
+  public string Name;
+
+  public Room(string name)
+  {
+    Name = name;
+  }
 }
