@@ -1,29 +1,28 @@
+namespace DIKUCanteen;
 using System.Reflection.Metadata.Ecma335;
 
-namespace DIKUCanteen;
+public class Canteen : Room {
+    public Canteen(string name) : base(name) {
 
-public class Canteen : Room{
-  public Canteen(string name) : base(name)
-  {
-    
-  }
-  private int cups = 100;
+    }
+    private int cups = 100;
 
-  public Canteen(string name, int inCups) : base(name)
-  {
-    cups = inCups;
-  }
+    public Canteen(string name, int inCups) : base(name) {
+        cups = inCups;
+    }
 
-  public int Cups
-  {
-      get { return cups; }
-      set { cups = value; } 
-  }
+    public int Cups {
+        get {
+            return cups;
+        }
+        set {
+            cups = value;
+        }
+    }
 
 
-  public override string ToString()
-  {
-    return $"{Name} has {cups} cups.";
-  }
+    public override string ToString() {
+        return $"{Name} has {cups} cups.";
+    }
 }
 
