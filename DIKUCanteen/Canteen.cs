@@ -15,9 +15,16 @@ public class Canteen : Room {
         get {
             return cups;
         }
-        set {
-            cups = value;
+    }
+
+    public void RemoveCup() {
+        if (cups > 0) {
+            cups--;
         }
+    }
+
+    public void AddCup() {
+        cups++;
     }
 
 

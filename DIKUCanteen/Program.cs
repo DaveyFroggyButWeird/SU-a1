@@ -35,7 +35,7 @@ class Program {
         Console.WriteLine(CanteenInstance);
         Console.WriteLine($"budget was changed to {CanteenBoardMember.CupBudget}.");
         Console.WriteLine("Setting to 0 budgets, 0 cups");
-        CanteenInstance.Cups = 0;
+        CanteenInstance = new Canteen("Cool", 0);
         CanteenBoardMember.CupBudget = 0;
         Console.WriteLine(CanteenInstance);
         Console.WriteLine($"buying a new cup, with a budget of {CanteenBoardMember.CupBudget}");

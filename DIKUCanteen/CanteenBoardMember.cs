@@ -13,7 +13,7 @@ public class CanteenBoardMember : Student {
     // so 50 should do fine. Since each canteen already has 100.
     public void BuyCup(Canteen canteenInstance) {
         if (CupBudget > 0) {
-            canteenInstance.Cups = canteenInstance.Cups + 1;
+            canteenInstance.AddCup();
             CupBudget--;
         }
     }

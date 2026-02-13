@@ -9,13 +9,13 @@ public class Student : Person {
 
     public void TakeCup(Canteen canteenInstance) {
         if (canteenInstance.Cups > 0 && !HasCup) {
-            canteenInstance.Cups = canteenInstance.Cups - 1;
+            canteenInstance.RemoveCup();
             HasCup = true;
         }
     }
     public void ReturnCup(Canteen canteenInstance) {
         if (HasCup) {
-            canteenInstance.Cups = canteenInstance.Cups + 1;
+            canteenInstance.AddCup();
             HasCup = false;
         }
     }
